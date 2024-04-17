@@ -7,6 +7,7 @@
 #problema GIT
 
 $ git push 
+
 fatal: unable to access 'https://github.com/WilmerHHRepo/product-service.git/': SSL certificate problem: unable to get local issuer certificate
 
  $ git config -l --show-origin
