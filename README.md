@@ -6,10 +6,10 @@
 
 #problema GIT
 
-$ git push
+$ git push 
 fatal: unable to access 'https://github.com/WilmerHHRepo/product-service.git/': SSL certificate problem: unable to get local issuer certificate
 
- git config -l --show-origin
+ $ git config -l --show-origin
 
  file:C:/Users/whuaquih/AppData/Local/Programs/Git/etc/gitconfig diff.astextplain.textconv=astextplain
 file:C:/Users/whuaquih/AppData/Local/Programs/Git/etc/gitconfig filter.lfs.clean=git-lfs clean -- %f
@@ -36,8 +36,9 @@ file:.git/config        remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 file:.git/config        branch.main.remote=origin
 file:.git/config        branch.main.merge=refs/heads/main
 
+#Solucion git unable to access 
 
-git config --global http.sslBackend schannel
+$ git config --global http.sslBackend schannel
 
 $ git config -l --show-origin
 file:C:/Users/whuaquih/AppData/Local/Programs/Git/etc/gitconfig diff.astextplain.textconv=astextplain
